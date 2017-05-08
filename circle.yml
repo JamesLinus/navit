@@ -22,6 +22,8 @@ dependencies:
     - pip install junit-xml dbus-python
     - ln -s /usr/lib/python2.7/dist-packages/gobject /opt/circleci/python/2.7.11/lib/python2.7/site-packages/
     - ln -s /usr/lib/python2.7/dist-packages/glib /opt/circleci/python/2.7.11/lib/python2.7/site-packages/
+# For documentation
+    - sudo apt-get install doxygen
 test:
 
   override:
