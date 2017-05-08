@@ -32,7 +32,7 @@ test:
         files:
           - ci/build_*.sh
     - doxygen navit/Doxyfile
-    - mv ../docs $CIRCLE_ARTIFACTS/
+    - mv ../doc $CIRCLE_ARTIFACTS/
 deployment:
   publish_to_playstore:
     branch: master
