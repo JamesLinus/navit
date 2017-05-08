@@ -29,6 +29,7 @@ test:
         parallel: true
         files:
           - ci/build_*.sh
+    - doxygen navit/Doxyfile
 deployment:
   publish_to_playstore:
     branch: master
